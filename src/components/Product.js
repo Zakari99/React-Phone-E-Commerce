@@ -63,12 +63,12 @@ Product.propTypes = {
 const ProductWrapper = styled.div`
 	.card {
 		border-color: transparent;
-		transition: all 1s linear;
+		transition: all 0.5s linear;
 	}
 	.card-footer {
 		background: transparent;
 		border-top: transparent;
-		transition: all 1s linear;
+		transition: all 0.5s linear;
 	}
 	&:hover {
 		.card {
